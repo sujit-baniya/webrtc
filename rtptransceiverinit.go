@@ -12,4 +12,4 @@ type RTPTransceiverInit struct {
 
 // RtpTransceiverInit is a temporary mapping while we fix case sensitivity
 // Deprecated: Use RTPTransceiverInit instead
-type RtpTransceiverInit = RTPTransceiverInit //nolint: stylecheck,golint
+type RtpTransceiverInit = RTPTransceiverInit // nolint: stylecheck,golint

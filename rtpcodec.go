@@ -6,7 +6,7 @@ package webrtc
 import (
 	"strings"
 
-	"github.com/pion/webrtc/v4/internal/fmtp"
+	"github.com/oarkflow/webrtc/internal/fmtp"
 )
 
 // RTPCodecType determines the type of a codec
@@ -24,9 +24,9 @@ const (
 func (t RTPCodecType) String() string {
 	switch t {
 	case RTPCodecTypeAudio:
-		return "audio" //nolint: goconst
+		return "audio" // nolint: goconst
 	case RTPCodecTypeVideo:
-		return "video" //nolint: goconst
+		return "video" // nolint: goconst
 	default:
 		return ErrUnknownType.Error()
 	}
